@@ -65,6 +65,7 @@ ZSH_THEME="robbyrussell"
 plugins=(
 	git
 	zsh-autosuggestions
+    zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -281,4 +282,4 @@ zle -N backward-delete-char check-cmd-backward-delete-char
 
 alias c="clear"
 alias sudo="sudo -E"
-alias pacman="sudo -E pacman"
+alias sp="sudo pacman"
