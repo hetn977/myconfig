@@ -41,14 +41,15 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec st
 #chromium
 bindsym $mod+c exec --no-startup-id chromium
 #deepin-screenshot
 bindsym $mod+g exec --no-startup-id deepin-screenshot
 
+exec_always --no-startup-id feh
 exec_always --no-startup-id variety
-exec_always --no-startup-id compton
+exec_always --no-startup-id picom -b
 exec_always --no-startup-id fcitx
 
 # kill focused window
