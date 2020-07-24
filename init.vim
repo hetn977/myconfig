@@ -43,8 +43,6 @@ map sj :set nosplitright<CR>:vsplit<CR>
 map si :set nosplitbelow<CR>:split<CR>
 map sk :set splitbelow<CR>:split<CR>
 
-noremap y "+y
-
 map <LEADER>l <C-w>l
 map <LEADER>i <C-w>k
 map <LEADER>j <C-w>h
